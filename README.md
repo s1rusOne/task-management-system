@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/task-management-system.git
+   git clone https://github.com/s1rusOne/task-management-system.git
    ```
 
 2. Navigate to the project directory:
@@ -84,4 +84,6 @@ npm run client
 - `GET /api/tasks`: Retrieve all tasks
 - `PUT /api/tasks/:id`: Update a task
 - `DELETE /api/tasks/:id`: Delete a task
-- `GET /api/analytics/
+- `GET /api/analytics/productivity`: Get overall productivity
+- `GET /api/analytics/status`: Get tasks distribution by status
+- `GET /api/analytics/most-productive-user`: Get the most productive user
